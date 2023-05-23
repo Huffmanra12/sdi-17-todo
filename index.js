@@ -11,14 +11,16 @@ NewItem.addEventListener(
   "click", function(){itemStore.push(listItem.value)
   }
 );
+
 NewItem.addEventListener(
   'click', function(){
+
+
       let newParagraph = document.createElement('p');
       newParagraph.textContent = listItem.value;
       newParagraph.id = listItem.value;
       listElement.appendChild(newParagraph);
-    console.log(itemStore);
-  }
+     }
 );
 
 RemoveItem.addEventListener(
@@ -27,6 +29,5 @@ RemoveItem.addEventListener(
     let ItemIndex = itemStore.indexOf(Item);
     itemStore.splice(ItemIndex, 1);
     Item.remove();
-    console.log(itemStore);
   })
 });
