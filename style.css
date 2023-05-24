@@ -87,6 +87,7 @@ font-family:Pangolin;
   border-radius: 21px 21px 22px 21px;
   font-family:Pangolin;
   justify-content: center;
+  margin-left:15%;
 }
 
 #item-input {
@@ -94,4 +95,40 @@ font-family:Pangolin;
   border-left: 5px solid #1C6EA4;
   border-radius: 21px 21px 22px 21px;
 
+}
+
+.check-box {
+  float:right;
+}
+
+#Archives {
+  display:grid;
+  border-radius: 21px 21px 21px 21px;
+  min-width:30%;
+  max-width:30%;
+  min-height:100px;
+  height:fit-content;
+  margin-left:5%;
+}
+
+#My-Archived-Items{
+  color:black;
+  font-family:Pangolin;
+  text-align:center;
+  background-color: aquamarine;
+  border-radius: 21px 21px 0px 0px;
+  width:100%;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#Archived {
+  color:black;
+  font-family:Pangolin;
+  background-image: url(https://www.honeydolistdoneright.com/uploads/b/93a0c56174d056177825822d2d6857fa05f18644f232dc57309fdfae8aade165/20210821_202418_0000_1649884677.png?width=2400&optimize=medium);
+  font-size: xx-large;
+  min-height:560px;
+  height:fit-content;
+  margin-top:0;
+  margin-bottom:0;
 }
